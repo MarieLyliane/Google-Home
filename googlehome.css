@@ -1,0 +1,119 @@
+.liens
+{
+	border-top: none;
+	display: flex;
+	justify-content: space-between;
+	flex : wrap;
+	padding: 10px
+}
+a
+{
+	color: rgb(65,65,65);
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+*
+{
+	font-family: Arial, Calibri, serif;
+	font-size: 15px;
+}
+section button
+{
+	background: rgb(245,245,245);
+	padding: 13px;
+	margin-left: 15px;
+	border:none;
+}
+section button:hover
+{
+	border:1px black solid;
+	border-radius: 0.05px
+}
+nav
+{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+nav a
+{
+	display: inline-block;
+	padding: 5px
+}
+nav button
+{
+	background: rgb(1,132,250);
+	color: white;
+	font-weight: bold;
+	padding: 7px;
+	border-radius: 2px
+}
+.barre
+{
+	position:relative;
+	margin: auto;
+	border: 1px rgb(200,200,200) solid;
+	width: 590px;
+	height: 30px;
+}
+input
+{
+	width: 500px;
+	height: 27px;
+	border:none;
+}
+input:active
+{
+	border:none;
+}
+.milieu
+{
+	margin-top: 100px
+}
+.milieu1, .milieu2
+{
+	display: flex;
+	justify-content: center;
+	padding: 5px
+	margin-right: 5px;
+}
+.milieu2, .barre
+{
+	margin-top: 20px
+}
+.micro
+{
+	float: right;
+}
+.loupe
+{
+	float: left;
+}
+footer
+{
+	position: absolute;
+	bottom: 0
+}
+footer a
+{
+	display: inline-block;
+	padding: 6px
+}
+.pays
+{
+	color: rgb(80,80,80);
+	padding: 3px
+
+}
+.pays, .liens
+{
+	background: rgb(245,245,245);
+	border: 1px rgb(200,200,200) solid
+}
+.liens
+{
+	width:97vw
+}
